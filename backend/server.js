@@ -1,12 +1,11 @@
 //& 1
-//& Where we configure express server
+//& we configure express server
 //& catch cors middleware
 import express from "express"
 import cors from "cors"
 
 // we have to create this component below
 import restaurants from "./api/restaurant.route.js"
-
 
 // accessing express
 const app = express()
